@@ -1,0 +1,1 @@
+sap.ui.define(["sap/fe/test/ObjectPage"],function(e){"use strict";var t={actions:{},assertions:{}};return new e({appId:"DraftEnableTesting.FioriApp",componentId:"SrvBooksObjectPage",entitySet:"SrvBooks"},t)});

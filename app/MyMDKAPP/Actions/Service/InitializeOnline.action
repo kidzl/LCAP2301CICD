@@ -1,0 +1,10 @@
+{
+    "Service": "/MyMDKAPP/Services/service1.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnSuccess": "/MyMDKAPP/Actions/Service/InitializeOnlineSuccessMessage.action",
+    "OnFailure": "/MyMDKAPP/Actions/Service/InitializeOnlineFailureMessage.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}

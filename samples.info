@@ -1,0 +1,14 @@
+[
+	{
+		"entity": "Authors",
+		"namespace": "DraftEnableTesting",
+		"file": "/home/user/projects/DraftEnableTesting/db/data/DraftEnableTesting-Authors.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "1",
+		"namespace": "Books",
+		"file": "/home/user/projects/DraftEnableTesting/db/data/Books-1.csv",
+		"isFixed": false
+	}
+]

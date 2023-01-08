@@ -1,0 +1,63 @@
+{
+	"Caption": "Update SrvBooks Detail",
+	"DesignTimeTarget": {
+		"Service": "/MyMDKAPP/Services/service1.service",
+		"EntitySet": "SrvBooks",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"Caption": "Cancel",
+				"OnPress": "/MyMDKAPP/Rules/SrvBooks/SrvBooks_Cancel.js"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/MyMDKAPP/Rules/SrvBooks/SrvBooks_UpdateEntity.js"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Caption": "",
+					"Controls": [
+						{
+							"Caption": "title",
+							"_Name": "title",
+							"Value": "{title}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "stock",
+							"_Name": "stock",
+							"Value": "{stock}",
+							"KeyboardType": "Number",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "price",
+							"_Name": "price",
+							"Value": "{price}",
+							"KeyboardType": "Number",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "currency",
+							"_Name": "currency",
+							"Value": "{currency}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "PageOneFormCell",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SrvBooks_Edit"
+}

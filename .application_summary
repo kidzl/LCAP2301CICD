@@ -1,0 +1,5 @@
+{
+  "ProjectOverviewURL": "https://lcap-qa.launchpad.cfapps.sap.hana.ondemand.com/lcapDraftEnableTesting.DraftEnableTestingLaunchpad-1.0.0",
+  "DeployedUTCTime": "2023-01-08T05:44:33.991Z",
+  "ApplicationLogURL": "https://logs.cf.sap.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:DraftEnableTesting-srv)))))"
+}
