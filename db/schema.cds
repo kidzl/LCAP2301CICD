@@ -35,3 +35,10 @@ entity Authors
     modifiedBy : String(100);
     books : Association to many Books on books.authors = $self;
 }
+
+entity ListBook
+{
+    key ID : UUID
+        @Core.Computed;
+    title : String(100);
+}
